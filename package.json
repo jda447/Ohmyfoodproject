@@ -1,0 +1,19 @@
+{
+  "name": "ohmyfoodproject",
+  "version": "1.0.0",
+  "description": "ohmyfoodmenu",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./ohmyfoodproject/style.scss:./css/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jda447/Ohmyfoodproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jda447/Ohmyfoodproject/issues"
+  },
+  "homepage": "https://github.com/jda447/Ohmyfoodproject#readme"
+}
