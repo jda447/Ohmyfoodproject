@@ -1,8 +1,12 @@
 @font-face {
-    font-family: 'Roboto', sans-serif;
-    src: "https://onedrive.live.com/embed?cid=C82B63154AD181E7&resid=C82B63154AD181E7%21459&authkey=AHvBfLt7K5VyO5g";
+    font-family: 'Roboto';
+    src: local(downloads\roboto\Roboto);
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.location {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
