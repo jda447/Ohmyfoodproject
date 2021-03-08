@@ -1,0 +1,18 @@
+.location {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    background-color: #EEEEEE;
+    height: 60px;
+}
+
+.book-menu {
+    font-size: 27px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+        .book-menu__subheading {
+            display: flex;
+            justify-content: center;
+        }
+}
