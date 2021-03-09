@@ -1,15 +1,15 @@
 .restaurant-cards {
     @include flex-center-column;
     @include button-shadow;
-    transition: 0.3s;
+    @include max-width-height-auto;
     border-radius: 16px;
-    height: 210px;
-    width: 256px;
     background-color: white;
+    margin: 0px 40px;
 }
 
-.restaurant-cards img {
+article img {
     border-radius: 20px 20px 0px 0px;
+    @include max-width-height-auto
 }
 
 article strong {
