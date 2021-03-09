@@ -1,5 +1,5 @@
 .explore-btn {
-        border: 3px none #D6D6D6;
+        border: 3px none;
         background-color: white;
         font-weight: bold;
         box-sizing: border-box;
@@ -20,7 +20,7 @@ section a {
 
 .order-btn {
         border: 3px none #D6D6D6;
-        background-color: #F8F8F8;
+        background-color: $lighter-bground;
         font-weight: bold;
         box-sizing: border-box;
         padding: 1.5em 1em;
