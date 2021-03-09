@@ -5,6 +5,7 @@
     height: 210px;
     width: 256px;
     background-color: white;
+    @include flex-center-column
 }
 
 .restaurant-cards img {
