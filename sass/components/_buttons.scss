@@ -1,4 +1,5 @@
 .explore-btn {
+        @include button-shadow;
         border: 3px none;
         background-image: linear-gradient(to bottom right, $secondary-color, $primary-color);
         font-weight: bold;
@@ -19,15 +20,16 @@ section a {
 }
 
 .order-btn {
+        @include flex-center-column;
+        @include button-shadow;
         border: 3px none #D6D6D6;
         background-color: $lighter-bground;
         font-weight: bold;
         box-sizing: border-box;
-        padding: 1.5em 1em;
+        padding: 1em 1em;
         margin: 40px 100px;
         border-radius: 40px;
         font-size: 26px;
-        @include flex-center-column
 }
 
 .btn-numbers {
