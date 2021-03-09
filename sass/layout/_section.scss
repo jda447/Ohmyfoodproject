@@ -1,24 +1,8 @@
 section {
-    background-color: #F8F8F8;
+    background-color: $lighter-bground;
     height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-}
-
-.heading-text {
-    font-size: 36px;
-    font-weight: 800;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-        &__subheading {
-            font-size: 26px;
-            font-weight: 200;
-            margin: 60px 60px;
-            display: flex;
-            justify-content: center;
-            align-content: center;
-        }
 }
