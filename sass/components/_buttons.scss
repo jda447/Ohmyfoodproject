@@ -1,6 +1,6 @@
 .explore-btn {
         border: 3px none;
-        background-color: white;
+        background-image: linear-gradient(to bottom right, $secondary-color, $primary-color);
         font-weight: bold;
         box-sizing: border-box;
         padding: 1em 1em;
@@ -15,7 +15,7 @@
 
 section a {
         text-decoration: none;
-        color: grey;
+        color: white;
 }
 
 .order-btn {
@@ -49,12 +49,15 @@ aside a {
 
 .fa-store {
         color: $primary-color;
+        margin: 0px 30px;
 }
 
 .fa-mobile-alt {
         color: grey;
+        margin: 0px 30px;
 }
 
 .fa-bars {
         color: grey;
+        margin: 0px 30px;
 }

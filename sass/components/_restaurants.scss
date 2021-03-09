@@ -1,0 +1,16 @@
+.restaurant-cards {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 16px;
+    height: 210px;
+    width: 256px;
+    background-color: white;
+}
+
+.restaurant-cards img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+article strong {
+    text-decoration: none;
+}
