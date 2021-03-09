@@ -33,7 +33,28 @@ section a {
         text-decoration: none;
 }
 
+.btn-numbers {
+        color: white;
+        font-size: 16px;
+}
+
 aside a {
         color: black;
         text-decoration: none;
+}
+
+.fa-circle {
+        color: $primary-color;
+}
+
+.fa-store {
+        color: $primary-color;
+}
+
+.fa-mobile-alt {
+        color: grey;
+}
+
+.fa-bars {
+        color: grey;
 }
