@@ -1,9 +1,10 @@
 footer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
     background-color: #393939;
-    height: 320px;
+    height: 340px;
     margin: 100px 0px 0px 0px;
       a {
         color: white;
@@ -11,7 +12,14 @@ footer {
       }
   }
 
-  .footer-logo {
-    font-size: 30px;
-    color: white;
-  }
+.footer-logo {
+  font-size: 32px;
+  color: white;
+  margin: 10px 50px;
+}
+
+footer > a {
+  font-size: 22px;
+  margin: 10px 50px;
+}
+
