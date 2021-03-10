@@ -1,5 +1,4 @@
 article {
     background-color: $lighter-bground;
-    height: 2000px;
     @include flex-center-column
 }
