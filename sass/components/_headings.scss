@@ -15,3 +15,17 @@
     @include headings;
     margin: 60px 0px 20px 40px;
 }
+
+.menupage-heading {
+    @include headings;
+    margin: 40px 0px 10px 20px;
+}
+
+.course-headings {
+    color: $subheading-color;
+    margin: 20px 0px 10px 20px;
+}
+
+.course-headings-underline {
+    border-bottom: 3px solid $tertiary-color;
+}
