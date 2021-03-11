@@ -1,15 +1,13 @@
 .heading-text {
     @include headings;
-    display: flex;
-    justify-content: center;
+    @include text-centering;
     margin: 40px 0px;
         &__subheading {
+            @include text-centering;
+            color: $subheading-color;
             font-size: 26px;
             font-weight: 200;
             margin: 10px 0px;
-            display: flex;
-            justify-content: center;
-            color: #757575;
         }
 }
 

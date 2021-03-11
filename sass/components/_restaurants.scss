@@ -1,6 +1,6 @@
 .restaurant-cards {
     @include flex-center-column;
-    @include button-shadow;
+    @include btn-shadow;
     @include restaurant-cards;
         img {
             border-radius: 20px 20px 0px 0px;
@@ -10,14 +10,14 @@
 }
 
 .restaurant-cards > strong {
-    color: black;
+    color: $black;
     margin: 0px 30px;
     font-size: 26px;
     margin: 30px 0px 0px 30px;
 }
 
 .restaurant-cards > p {
-    color: black;
+    color: $black;
     margin: 10px 0px 30px 30px;
     font-size: 22px;
 }
