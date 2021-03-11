@@ -4,10 +4,18 @@
     justify-content: center;
     font-size: 22px;
     height: 60px;
-        i {
+        .fa-map-marker-alt {
             margin: 15px 15px;
         }
             .text {
                 margin: 15px 0px;
             }
+}
+
+.menupage-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 340px;
 }
