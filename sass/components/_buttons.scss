@@ -1,21 +1,18 @@
-.explore-btn {
+.primary-btn {
         @include button-shadow;
         border: 3px none;
         background-image: linear-gradient(to bottom right, $secondary-color, $primary-color);
         font-weight: bold;
-        box-sizing: border-box;
         padding: 1em 1em;
         border-radius: 40px;
         font-size: 26px;
-        margin: 40px 40px;
+        margin: 40px 0px 60px 0px;
         display: flex;
         justify-content: center;
         align-content: center;
         text-decoration: none;
         &:hover {
-                opacity: 0.8;
-                transition-delay: 0.1s;
-                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+                @include btn-hover
         }
 }
 
