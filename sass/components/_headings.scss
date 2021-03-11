@@ -2,6 +2,7 @@
     @include headings;
     display: flex;
     justify-content: center;
+    text-align: center;
     margin: 40px 0px;
         &__subheading {
             font-size: 26px;
@@ -9,6 +10,7 @@
             margin: 10px 0px;
             display: flex;
             justify-content: center;
+            text-align: center;
             color: #757575;
         }
 }

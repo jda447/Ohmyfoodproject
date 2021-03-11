@@ -11,6 +11,7 @@
         justify-content: center;
         align-content: center;
         text-decoration: none;
+        text-align: center;
         &:hover {
                 @include btn-hover
         }
