@@ -1,4 +1,7 @@
 article {
     background-color: $lighter-bground;
-    @include flex-center-column
+    @include flex-center-column;
+        a {
+            text-decoration: none;
+        }
 }
