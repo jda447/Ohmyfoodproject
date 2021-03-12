@@ -6,11 +6,10 @@
 
 @mixin btn-primary {
     border: 3px none;
-    padding: 1em 1em;
+    padding: 0.8em 0.5em;
     border-radius: 40px;
     margin: 40px 60px 60px 60px;
-    font-size: 26px;
-    font-weight: bold;
+    font-size: 14px;
     background-image: linear-gradient(to bottom right, $secondary-color, $primary-color);
     display: flex;
     justify-content: center;
@@ -54,22 +53,20 @@
 @mixin footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 100%;
     background-color: #393939;
-    height: 240px;
-    margin: 100px 0px 0px 0px;
+    height: 200px;
 }
 
 @mixin footer-logo {
     color: $white;
-    font-size: 22px;
-    margin: 10px 50px;
+    font-size: 20px;
+    margin: 15px 28px;
 }
 
 @mixin footer-text {
     color: $white;
     text-decoration: none;
-    font-size: 16px;
-    margin: 5px 50px;
+    font-size: 14px;
+    margin: 5px 28px;
 }
