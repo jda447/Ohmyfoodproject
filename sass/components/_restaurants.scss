@@ -4,20 +4,20 @@
     @include restaurant-cards;
         img {
             border-radius: 20px 20px 0px 0px;
-            height: 26vh;
+            height: 140px;
             object-fit: cover;
         }
 }
 
 .restaurant-cards > strong {
     color: $black;
-    margin: 0px 30px;
-    font-size: 26px;
-    margin: 30px 0px 0px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 8px 12px;
 }
 
 .restaurant-cards > p {
     color: $black;
-    margin: 10px 0px 30px 30px;
-    font-size: 22px;
+    font-size: 12px;
+    margin: 0px 12px 8px 12px;
 }
