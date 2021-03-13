@@ -6,27 +6,32 @@
         }
 }
 
+nav a {
+        color: $white;
+        text-decoration: none;
+}
+
 section a {
         color: $white;
         text-decoration: none;
 }
 
 .order-btn {
-        @include flex-center-column;
         @include btn-shadow;
         background-color: $lighter-bground;
         border: 3px none $darker-bground;
         font-weight: bold;
         box-sizing: border-box;
-        padding: 1em 1em;
-        margin: 40px 60px 60px 60px;
-        border-radius: 40px;
-        font-size: 26px;
+        padding: 0.5em 0.5em;
+        border-radius: 20px;
+        margin: 20px 12px;
+        font-size: 12px;
 }
 
 .btn-numbers {
         color: $white;
-        font-size: 16px;
+        font-size: 10px;
+        font-weight: 300;
 }
 
 aside a {
@@ -38,19 +43,19 @@ aside a {
         color: $primary-color;
 }
 
-.fa-store {
-        color: $primary-color;
-        margin: 0px 30px;
-}
-
 .fa-mobile-alt {
         color: $subheading-color;
-        margin: 0px 30px;
+        margin: 0px 14px;
 }
 
 .fa-bars {
         color: $subheading-color;
-        margin: 0px 30px;
+        margin: 0px 14px;
+}
+
+.fa-store {
+        color: $primary-color;
+        margin: 0px 14px;
 }
 
 .meal-btn {

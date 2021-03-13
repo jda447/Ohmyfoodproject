@@ -14,8 +14,9 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    text-decoration: none;
     text-align: center;
+    color: $white;
+    text-decoration: none;
 }
 
 @mixin btn-shadow {
@@ -35,7 +36,7 @@
 }
 
 @mixin headings {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 800;
 }
 
@@ -46,7 +47,7 @@
     max-height: 30%;
     margin: 0px 0px 40px 0px;
     border-radius: 16px;
-    background-color: white;
+    background-color: $white;
     margin: 20px 40px;
 }
 

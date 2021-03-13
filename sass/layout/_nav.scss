@@ -2,13 +2,13 @@
     background-color: $darker-bground;
     display: flex;
     justify-content: center;
-    font-size: 22px;
-    height: 60px;
+    font-size: 14px;
+    height: 40px;
         .fa-map-marker-alt {
-            margin: 15px 15px;
+            margin: 12px 6px;
         }
             .text {
-                margin: 15px 0px;
+                margin: 12px 0px;
             }
 }
 
@@ -17,4 +17,11 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
+}
+
+nav {
+    background-color: $lighter-bground;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
