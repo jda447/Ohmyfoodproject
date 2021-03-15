@@ -54,14 +54,16 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: #393939;
-    height: 200px;
+    background-color: $footer-color;
+    height: 220px;
+    position: relative;
+    bottom: 28px;
 }
 
 @mixin footer-logo {
     color: $white;
     font-size: 20px;
-    margin: 15px 28px;
+    margin: 22px 28px;
 }
 
 @mixin footer-text {
