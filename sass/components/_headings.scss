@@ -21,6 +21,15 @@
     margin: 16px 0px 4px 20px;
 }
 
+section .fa-heart {
+        color: $heart-color;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: -30px 20px 0px 0px;
+        font-size: 22px;
+}
+
 .course-headings {
     color: $subheading-color;
     margin: 20px 0px 10px 20px;
