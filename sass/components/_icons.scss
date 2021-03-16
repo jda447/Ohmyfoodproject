@@ -1,0 +1,42 @@
+.restaurant-cards > .fa-stack {
+    @include heart-outline;
+    &:hover {
+        @include heart-hover;
+    }
+}
+
+section .fa-stack {
+    @include heart-outline;
+    &:hover {
+        @include heart-hover;
+    }
+}
+
+.fa-mobile-alt {
+    color: $subheading-color;
+    margin: 0px 14px;
+}
+
+.fa-bars {
+    color: $subheading-color;
+    margin: 0px 14px;
+}
+
+.fa-store {
+    color: $primary-color;
+    margin: 0px 14px;
+}
+
+.fa-circle {
+    color: $primary-color;
+}
+
+.btn-numbers {
+    color: $white;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.meal-cost {
+    @include meal-cost;
+}

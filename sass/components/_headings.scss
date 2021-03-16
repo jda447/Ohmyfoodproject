@@ -21,20 +21,6 @@
     margin: 16px 0px 4px 20px;
 }
 
-section .fa-stack {
-        color: $lighter-bground;
-        margin: 0px 0px -20px 210px;
-        position: relative;
-        bottom: 42px;
-        font-size: 22px;
-        text-shadow: -1px -1px 0 $heart-color, 1px -1px 0 $heart-color, -1px 1px 0 $heart-color, 1px 1px 0 $heart-color;
-        &:hover {
-            color: red;
-            transition-delay: 200ms;
-            transition-duration: 1500ms;
-    }
-}
-
 .course-headings {
     color: $subheading-color;
     margin: 20px 0px 10px 20px;
