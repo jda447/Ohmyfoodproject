@@ -18,32 +18,12 @@ section a {
 
 .order-btn {
         @include btn-shadow;
-        background-color: $lighter-bground;
-        border: 3px none $darker-bground;
-        font-weight: bold;
-        box-sizing: border-box;
-        padding: 1.2em 0.5em;
-        border-radius: 20px;
-        margin: 20px 12px;
-        font-size: 12px;
-}
-
-.order-btn--3 {
-        @include btn-shadow;
-        background-color: #FFE3F4;
-        border: 3px none $darker-bground;
-        font-weight: bold;
-        box-sizing: border-box;
-        padding: 1.2em 0.5em;
-        border-radius: 20px;
-        margin: 20px 12px;
-        font-size: 12px;
-}
-
-.btn-numbers {
-        color: $white;
-        font-size: 10px;
-        font-weight: 300;
+        @include order-btn;
+        &--3 {
+                @include btn-shadow;
+                @include order-btn;
+                background-color: $light-pink;
+        }
 }
 
 aside a {
@@ -51,36 +31,10 @@ aside a {
         text-decoration: none;
 }
 
-.fa-circle {
-        color: $primary-color;
-}
-
-.fa-mobile-alt {
-        color: $subheading-color;
-        margin: 0px 14px;
-}
-
-.fa-bars {
-        color: $subheading-color;
-        margin: 0px 14px;
-}
-
-.fa-store {
-        color: $primary-color;
-        margin: 0px 14px;
-}
-
 .meal-btn {
         @include flex-center-column;
         @include btn-shadow;
-        background-color: $white;
-        border: 3px none $darker-bground;
-        font-weight: bold;
-        box-sizing: border-box;
-        padding: 0.1em 0.5em;
-        border-radius: 12px;
-        font-size: 26px;
-        margin: 6px 14px;
+        @include meal-btn;
                  &__text {
                         font-size: 14px;
                         margin: 8px 0px 0px 0px;
@@ -91,16 +45,4 @@ aside a {
                                 color: $subheading-color;
                                 margin: 6px 0px -8px 0px;
                         }
-}
-
-.meal-cost {
-        font-size: 0.5em;
-        display: flex;
-        justify-content: flex-end;
-        position: relative;
-        bottom: 6px;
-}
-
-.fa-heart {
-        font-size: 18px;
 }
