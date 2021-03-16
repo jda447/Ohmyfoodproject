@@ -9,6 +9,7 @@ section .fa-stack {
     @include heart-outline;
     &:hover {
         @include heart-hover;
+        color: $lighter-bground;
     }
 }
 

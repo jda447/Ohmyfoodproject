@@ -4,10 +4,7 @@
     margin: 30px 0px;
         &__subheading {
             @include text-centering;
-            color: $subheading-color;
-            font-size: 16px;
-            font-weight: 200;
-            margin: 0px 20px;
+            @include subheading;
         }
 }
 
