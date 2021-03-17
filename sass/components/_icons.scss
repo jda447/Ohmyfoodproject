@@ -32,6 +32,15 @@ section .fa-stack {
     color: $primary-color;
 }
 
+.fa-arrow-left {
+    text-decoration: none;
+    position: relative;
+    right: 66px;
+    top: 10px;
+    font-size: 16px;
+    color: $black;
+}
+
 .btn-numbers {
     color: $white;
     font-size: 10px;
