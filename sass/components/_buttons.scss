@@ -46,3 +46,8 @@ aside a {
                                 margin: 6px 0px -8px 0px;
                         }
 }
+
+.meal-btn:before {
+        opacity: 0;
+        transition-delay: 2s;
+}
