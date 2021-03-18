@@ -1,5 +1,5 @@
 .restaurant-cards > .fa-stack {
-    @include heart-outline;
+    @include heart-outline-homepage;
     &:hover {
         @include heart-hover;
     }
