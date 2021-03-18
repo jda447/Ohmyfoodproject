@@ -46,22 +46,3 @@ section .fa-stack {
     font-size: 10px;
     font-weight: 300;
 }
-
-.meal-cost {
-    @include meal-cost;
-    i {
-    font-size: 20px;
-    background-color: $tertiary-color;
-    color: $white;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    bottom: 34px;
-    left: 8px;
-    box-sizing: border-box;
-    border-radius: 0px 12px 12px 0px;
-    margin: 0px 0px -43px 12px;
-    padding: 1em 0.8em;
-    overflow: hidden;
-    }
-}
