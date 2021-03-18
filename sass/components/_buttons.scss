@@ -1,6 +1,7 @@
 .primary-btn {
         @include btn-shadow;
         @include btn-primary;
+        @include ipad-buttons;
         &:hover {
                 @include btn-hover
         }
@@ -12,7 +13,7 @@ nav a {
 }
 
 section a {
-        color: $white;
+        color: $black;
         text-decoration: none;
 }
 
@@ -35,6 +36,10 @@ aside a {
         @include flex-center-column;
         @include btn-shadow;
         @include meal-btn;
+        &:hover i {
+                visibility: visible;
+                transition: transform .6s ease;
+        }
                  &__text {
                         font-size: 14px;
                         margin: 8px 0px 0px 0px;
@@ -45,6 +50,25 @@ aside a {
                                 color: $subheading-color;
                                 margin: 6px 0px -8px 0px;
                         }
+}
+
+.meal-cost {
+        @include meal-cost;
+        i {
+        font-size: 20px;
+        background-color: $tertiary-color;
+        color: $white;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 34px;
+        left: 8px;
+        box-sizing: border-box;
+        border-radius: 0px 12px 12px 0px;
+        margin: 0px 0px -43px 12px;
+        padding: 1em 0.8em;
+        visibility: hidden;
+        }
 }
 
 .meal-btn:before {
