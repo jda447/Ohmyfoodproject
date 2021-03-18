@@ -83,6 +83,9 @@
     border-radius: 12px;
     font-size: 26px;
     margin: 6px 14px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
 }
 
 @mixin meal-description {
@@ -175,3 +178,12 @@
     @media screen and (min-width: 1280px) {}
     margin: 20px 60px;
 }
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
