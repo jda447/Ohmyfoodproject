@@ -117,8 +117,11 @@
 }
 
 @mixin heart-outline {
-    margin: 0px 0px 0px 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
     font-size: 18px;
+    margin: 14px 20px 0px 0px;
     color: $lighter-bground;
     text-shadow: -1px -1px 0 $heart-color, 1px -1px 0 $heart-color, -1px 1px 0 $heart-color, 1px 1px 0 $heart-color;
 }
