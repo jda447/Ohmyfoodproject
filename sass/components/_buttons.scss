@@ -38,9 +38,15 @@ aside a {
         @include meal-btn;
         animation-delay: .3s;
         &:hover i {
-                transition: 1s;
-                left: 8px;
+                transform: scaleX(1);
+                animation-name: slide-left;
+                right: -20px;
                 visibility: visible;
+        }
+        &:hover .meal-cost {
+                transform: scaleX(1);
+                animation-name: slide-left;
+                right: 120px; 
         }
 }
 
@@ -63,13 +69,16 @@ aside a {
         animation-delay: .7s;
         &:hover i {
                 transition: 1s;
-                left: 8px;
-                visibility: visible;
+                left: 20px;
         }
 }
 
 .meal-cost {
         @include meal-cost;
+        &:hover {
+                transition: 1s;
+                left: -20px;  
+        }
         i {
         @include sliding-tick;
         }
@@ -78,11 +87,11 @@ aside a {
 .meal-btn-text {
         font-size: 14px;
         font-weight: bold;
-        margin: 6px 0px 0px 4px;
+        margin: 13px 6px 0px 6px;
 }
 
 .meal-btn-subtext {
         font-size: 12px;
         font-weight: 300;
-        margin: 4px 0px -6px 4px;
+        margin: 6px 6px -50px 6px;
 }
