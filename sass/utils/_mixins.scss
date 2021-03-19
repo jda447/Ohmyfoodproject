@@ -75,17 +75,19 @@
 }
 
 @mixin meal-btn {
+    display: flex;
+    justify-content: center;
     background-color: $white;
     border: 3px none $darker-bground;
     font-weight: bold;
     box-sizing: border-box;
-    padding: 0.1em 0.3em;
+    padding: 0.3em 0.3em;
     border-radius: 12px;
-    font-size: 26px;
+    font-size: 12px;
     margin: 6px 14px;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1; 
-    animation-fill-mode: forwards; 
+    animation-fill-mode: forwards;
 }
 
 @mixin meal-description {
@@ -108,6 +110,7 @@
     align-self: flex-end;
     position: relative;
     bottom: 6px;
+    font-size: 12px;
 }
 
 @mixin sliding-tick {
@@ -117,11 +120,11 @@
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 34px;
+    bottom: 32px;
     left: 100px;
     box-sizing: border-box;
     border-radius: 0px 12px 12px 0px;
-    margin: 0px 0px -43px 12px;
+    margin: 0px 0px -50px 12px;
     padding: 1em 0.8em;
     visibility: hidden;
 }
@@ -140,7 +143,7 @@
     justify-content: flex-end;
     align-self: flex-end;
     font-size: 18px;
-    margin: 14px 20px 0px 0px;
+    margin: 18px 20px -4px 0px;
     color: $lighter-bground;
     text-shadow: -1px -1px 0 $heart-color, 1px -1px 0 $heart-color, -1px 1px 0 $heart-color, 1px 1px 0 $heart-color;
 }
