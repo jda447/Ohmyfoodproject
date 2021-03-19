@@ -114,18 +114,19 @@
 }
 
 @mixin sliding-tick {
-    font-size: 20px;
+    transform: rotate(360deg);
+    font-size: 21px;
     background-color: $tertiary-color;
     color: $white;
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 32px;
+    bottom: 32.5px;
     left: 100px;
     box-sizing: border-box;
     border-radius: 0px 12px 12px 0px;
-    margin: 0px 0px -50px 12px;
-    padding: 1em 0.8em;
+    margin: 0px 0px -42px 12px;
+    padding: 0.8em 0.8em;
     visibility: hidden;
 }
 
