@@ -32,25 +32,40 @@ aside a {
         text-decoration: none;
 }
 
-.meal-btn {
+.meal-btn1 {
         @include flex-center-column;
         @include btn-shadow;
         @include meal-btn;
+        animation-delay: .3s;
         &:hover i {
                 transition: 1s;
                 left: 8px;
                 visibility: visible;
         }
-                 &__text {
-                        font-size: 14px;
-                        margin: 8px 0px 0px 0px;
-                }
-                        &__subtext {
-                                font-size: 12px;
-                                font-weight: 300;
-                                color: $subheading-color;
-                                margin: 6px 0px -8px 0px;
-                        }
+}
+
+.meal-btn2 {
+        @include flex-center-column;
+        @include btn-shadow;
+        @include meal-btn;
+        animation-delay: .5s;
+        &:hover i {
+                transition: 1s;
+                left: 8px;
+                visibility: visible;
+        }
+}
+
+.meal-btn3 {
+        @include flex-center-column;
+        @include btn-shadow;
+        @include meal-btn;
+        animation-delay: .7s;
+        &:hover i {
+                transition: 1s;
+                left: 8px;
+                visibility: visible;
+        }
 }
 
 .meal-cost {
@@ -60,7 +75,14 @@ aside a {
         }
 }
 
-.meal-btn:before {
-        opacity: 0;
-        transition-delay: 2s;
+.meal-btn-text {
+        font-size: 14px;
+        font-weight: bold;
+        margin: 6px 0px 0px 4px;
+}
+
+.meal-btn-subtext {
+        font-size: 12px;
+        font-weight: 300;
+        margin: 4px 0px -6px 4px;
 }
