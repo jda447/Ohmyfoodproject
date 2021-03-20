@@ -38,10 +38,10 @@ aside a {
         @include meal-btn;
         animation-delay: .3s;
         &:hover i {
-                transform: scaleX(1);
-                animation-name: slide-left;
-                right: -20px;
+                transform: scaleX(1) rotate(360deg);
+                right: -21px;
                 visibility: visible;
+                transition: all 0.3s ease-in-out 0.4s;
         }
         &:hover .meal-cost {
                 transform: scaleX(1);
