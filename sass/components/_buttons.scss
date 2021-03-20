@@ -43,11 +43,10 @@ aside a {
                 right: -21px;
                 visibility: visible;
                 transition: all 0.3s ease-in-out 0s;
-        }
-        &:hover .meal-cost {
+                &:hover .meal-cost {
                 transform: scaleX(1);
-                animation-name: slide-left;
-                right: 120px; 
+                right: 120px;
+                }
         }
 }
 
@@ -56,10 +55,16 @@ aside a {
         @include btn-shadow;
         @include meal-btn;
         animation-delay: .5s;
+        overflow: hidden;
         &:hover i {
-                transition: 1s;
-                left: 8px;
+                transform: scaleX(1);
+                right: -21px;
                 visibility: visible;
+                transition: all 0.3s ease-in-out 0s;
+                &:hover .meal-cost {
+                        transform: scaleX(1);
+                        right: 120px; 
+                }
         }
 }
 
@@ -68,9 +73,16 @@ aside a {
         @include btn-shadow;
         @include meal-btn;
         animation-delay: .7s;
+        overflow: hidden;
         &:hover i {
-                transition: 1s;
-                left: 20px;
+                transform: scaleX(1);
+                right: -21px;
+                visibility: visible;
+                transition: all 0.3s ease-in-out 0s;
+                &:hover .meal-cost {
+                        transform: scaleX(1);
+                        right: 120px; 
+                }
         }
 }
 
