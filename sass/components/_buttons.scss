@@ -37,11 +37,12 @@ aside a {
         @include btn-shadow;
         @include meal-btn;
         animation-delay: .3s;
+        overflow: hidden;
         &:hover i {
-                transform: scaleX(1) rotate(360deg);
+                transform: scaleX(1);
                 right: -21px;
                 visibility: visible;
-                transition: all 0.3s ease-in-out 0.4s;
+                transition: all 0.3s ease-in-out 0s;
         }
         &:hover .meal-cost {
                 transform: scaleX(1);
