@@ -5,6 +5,13 @@
     margin: 5px 0px;
 }
 
+@mixin homepage-arrow {
+    font-size: 18px;
+    display: flex;
+    align-content: center;
+    text-decoration: none;
+}
+
 @mixin text-centering {
     display: flex;
     justify-content: center;
