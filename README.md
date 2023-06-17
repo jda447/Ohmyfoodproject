@@ -1,3 +1,3 @@
-Project 2 - Responsive Breakpoints & CSS Animations
+Project 2 - Breakpoints & CSS Animations
 
 https://jda447.github.io/Ohmyfoodproject/
