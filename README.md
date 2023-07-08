@@ -1,5 +1,7 @@
-Project 2 - Breakpoints & CSS Animations
+:computer: Project 2 - Mobile website with CSS Animations
 
-OhMyFood
+:fork_and_knife: OhMyFood
 
-https://jda447.github.io/Ohmyfoodproject/
+Second OpenClassrooms project. Develop a 100% mobile-friendly site that lists the menus of gourmet restaurants. Mockup was provided with instructions for CSS Animations. A 25 minute presentation and discussion was required to pass.
+
+:link: https://jda447.github.io/Ohmyfoodproject/
